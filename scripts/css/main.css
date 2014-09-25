@@ -1,0 +1,99 @@
+/*
+file name:main.css
+author:Richard
+site name:Richard
+description:styling of the website */
+#welcome{
+	text-align:center;
+}
+footer {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+footer{
+	font-size: 12px;
+}
+#logo{
+	padding:5px;
+}
+#sitename{
+	color:white;
+}
+.top-bar .title-area{
+	padding-bottom:40px;
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	line-height:90px;
+}
+.top-bar{
+	line-height:55px;
+	height: 100px;
+    background: -webkit-linear-gradient(0deg, #333333, white 5%, #333333 10%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, #333333, white 5%, #333333 10%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, #333333, white 5%, #333333 10%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( 0deg, #333333, white 5%, #333333 10%); /* Standard syntax (must be last) */
+}
+@media all and (max-width: 640px) {
+	.top-bar .name{
+		height:65px;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button){
+		line-height:45px;
+	}
+	
+}
+footer{
+background-color:#333333;
+color:white;
+list-style-type: none;
+}
+
+#copyright,p,h1,h2{
+	padding-left:12px;
+}
+footer{
+	color:#0078a0;
+}
+#services ul{
+	padding-left:24px;
+}
+#rightfoot{
+	text-align:right;
+}
+#rightfoot li,#rightfoot{
+	float:right;
+	padding-right:5px;
+	font-size:18px;
+}
+#leftfoot{
+	text-align:left;
+	padding-left:10px;
+}
+#stayconnect, #leftfoot,#rightfoot{
+	display:inline-block;
+}
+label{
+	line-height:.2;
+}
+.icon-bar.five-up .item{
+	width:110px;
+}
+.icon-bar > *:hover{
+	background-color:#444;
+}
+.icon-bar a:hover label{
+	color:#0078a0;
+}
+.icon-bar{
+	background-color:#444;
+}
+.box{
+	width:100px;
+	height:100px;
+	float:left;
+}
+#studimg{
+	padding-left:20px;
+}
+#aboutme ul li{
+	list-style-type:none;
+}
