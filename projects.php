@@ -17,7 +17,7 @@ description:contains my past work and current. -->
 <?php include "header.php";?>
 <h1>Projects</h1>
 <!--img gallery -->
-<div id="gallery">
+<div id="gallery" class="large-8 columns">
 <ul class="example-orbit" data-orbit>
   <li class="img2">
     <a href="http://richards.uni.me"><img src="img/richards.bmp" alt="slide 1" /></a>

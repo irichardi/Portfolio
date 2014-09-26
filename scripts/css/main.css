@@ -87,8 +87,8 @@ label{
 	background-color:#444;
 }
 .box{
-	width:100px;
-	height:100px;
+	width:350px;
+	height:350px;
 	float:left;
 }
 #studimg{
@@ -96,4 +96,7 @@ label{
 }
 #aboutme ul li{
 	list-style-type:none;
+}
+#aboutme{
+	background-color:white;
 }

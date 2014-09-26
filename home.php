@@ -19,32 +19,33 @@ description:the start of my website, home containing an intro. -->
 	<h1>Welcome to Richard!</h1> 
 </div>
 <!--img gallery -->
-<div id="gallery">
+<div id="gallery" class="columns" style="">
 <ul class="example-orbit" data-orbit>
-  <li class="img2">
-    <a href="http://richards.uni.me"><img src="img/richards.bmp" alt="slide 1" /></a>
-    <div class="orbit-caption">
-      richards.uni.me
-    </div>
-  </li>
-  <li id="img1" class="active">
-    <a href="http://webdesign4.georgianc.on.ca/~200220923/COMP1006/assign2a/login.html"><img src="img/manager.bmp" alt="slide 2" /></a>
-    <div class="orbit-caption">
-      PHP File Manager
-    </div>
-  </li>
-  <li class="img2">
-    <a href="http://richards.uni.me/jquery/blackjack.html"><img src="img/games.bmp" alt="slide 3" /></a>
-    <div class="orbit-caption">
-      Games
-    </div>
-  </li>
-</ul>
+	  <li class="img2">
+		<a href="http://richards.uni.me"><img src="img/richards.bmp" alt="slide 1" /></a>
+		<div class="orbit-caption">
+		  richards.uni.me
+		</div>
+	  </li>
+	  <li id="img1" class="active">
+		<a href="http://webdesign4.georgianc.on.ca/~200220923/COMP1006/assign2a/login.html"><img src="img/manager.bmp" alt="slide 2" /></a>
+		<div class="orbit-caption">
+		  PHP File Manager
+		</div>
+	  </li>
+	  <li class="img2">
+		<a href="http://richards.uni.me/jquery/blackjack.html"><img src="img/games.bmp" alt="slide 3" /></a>
+		<div class="orbit-caption">
+		  Games
+		</div>
+	  </li>
+	</ul>
 </div>
-<div id="mission">
-	<p>Here you will find cool designs and features that I make on my spare time.</p> 
+<div id="mission" class="medium-12 columns">
+	<p>Here you will find cool designs and features that I make on my spare time.</p>
+	<a href="projects.php" class="button">See more</a>
 </div>
-<div id="reasons">
+<div id="reasons" class="medium-8 columns">
 <h2>Reasons</h2>
 	<p id="r1">Although I mainly program applications, I am also into website programming and design as I find it fun.</p>
 	<p id="r2">I hope that this design and the feature this website contains inspires you and other users to innovate the world wide web with creative and innovative work.</p>

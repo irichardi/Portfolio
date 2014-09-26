@@ -17,14 +17,16 @@ description:everything about me page -->
 <?php include "header.php";?>
 <div id="aboutme">
 	<h1>About Me</h1>
-	<div id="studimg">
+	<div id="studimg" class="small-4 medium-4 large-4 columns">
 	<img src="img/me.png" alt="pic of me" />
 	</div>
-	<p>I am a student studying Computer Programming Analyst at Georgian College who enjoys programming and making user applications.</p>
+	<p class="small-8 medium-7 large-4 columns">I am a student studying Computer Programming Analyst at Georgian College who enjoys programming and making user applications.</p>
+	<div id="expertise" class="small-12 medium-8 large-12 columns">
 	<h2>Areas of Expertise</h2> 
 	<ul>
 	<li>Languages: C/C++, Java, AS, python, and JS/jQuery.</li>
 	<li>Software: Unity, Blender, Eclipse, Netbeans, MS visual studio, MS office suite, Adobe Creative suite, and others.</li>
 	</ul>
+	</div>
 </div>
 <?php include("footer.php") ?>

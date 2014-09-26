@@ -18,15 +18,15 @@ description:where people come to get help. -->
 <h1>Services</h1>
 <div id="services">
 <div class="box">
-<img src="mobile.jpg" alt="mobile"/>
+<img src="img/mobile.bmp" alt="mobile"/>
 <p id="message">Mobile Design</p>
 </div>
-<div class="box">
-<img src="responsive.jpg" alt="mobile"/>
-<p id="message">Responsive Design</p>
+<div class="box" style="background-color:white;">
+<img src="img/res.jpg" alt="mobile"/>
+<p id="img/message">Responsive Design</p>
 </div>
 <div class="box">
-<img src="games.jpg" alt="games"/>
+<img src="img/gamesserv.bmp" alt="games"/>
 <p id="message">Game Developing</p>
 </div>
 <br />
