@@ -60,5 +60,5 @@ description:the start of my website, home containing an intro. -->
 //will add effect to welcome text
 $( "#welcome" ).fadeIn( 2000 );</script>
 <script>
-$("#lihome a").css( "color", "#0078a0" );//active function
+$("#lipoly a").css( "color", "red" );//active function
 </script>

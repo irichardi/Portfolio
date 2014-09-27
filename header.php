@@ -9,7 +9,6 @@ description:the start of the body and header containing essential files and nav.
   <ul class="title-area">
     <li class="name">
 		<div id="logo"><img src="img/logo.png" alt="logo" /><span id="sitename">Richard</span></div>
-		<p id="contem">Contact: irichardi@live.ca</p>
     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>

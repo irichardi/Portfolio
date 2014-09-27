@@ -42,5 +42,5 @@ description:contains my past work and current. -->
 </div>
 <?php include("footer.php") ?>
 <script>
-$("#lipro a").css( "color", "#0078a0" );
+$("#lipro a").css( "color", "#0078a0" );//active function
 </script>

@@ -34,8 +34,8 @@ description:Closing of the page. This file will be called in all the sections wi
 		</div>
 	</div>
 	<div id="rightfoot">
-		<li><a href="policy">Policy</a></li>
-		<li><a href="terms">Terms</a></li>
+		<li id="lipoly"><a href="policy">Policy</a></li>
+		<li id="literms"><a href="terms">Terms</a></li>
 	</div>
 	<div id="copyright">&copy; copyright of Richard Estrada. All rights reserved.</div>
 </footer>

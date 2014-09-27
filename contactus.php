@@ -65,5 +65,5 @@ description:contact me page where people contact me. -->
 </form>
 <?php include("footer.php") ?>
 <script>
-$("#licon a").css( "color", "#0078a0" );
+$("#licon a").css( "color", "#0078a0" );//active function
 </script>

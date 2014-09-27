@@ -45,5 +45,5 @@ description:where people come to get help. -->
 </div>
 <?php include("footer.php") ?>
 <script>
-$("#liserv a").css( "color", "#0078a0" );
+$("#liserv a").css( "color", "#0078a0" );//active function
 </script>

@@ -22,5 +22,5 @@ description:the start of my website, home containing an intro. -->
 </div>
 <?php include("footer.php") ?>
 <script>
-$("#ligit a").css( "color", "#0078a0" );
+$("#ligit a").css( "color", "#0078a0" );//active function
 </script>

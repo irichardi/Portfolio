@@ -35,5 +35,5 @@ description:everything about me page -->
 </div>
 <?php include("footer.php") ?>
 <script>
-$("#lime a").css( "color", "#0078a0" );
+$("#lime a").css( "color", "#0078a0" );//active function
 </script>
