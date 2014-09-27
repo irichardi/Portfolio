@@ -3,21 +3,22 @@ file name:projects.php
 author:Richard
 site name:Richard
 description:contains my past work and current. -->
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Richard | Projects</title>
+<!-- css style sheets -->
 <link rel="stylesheet" href="scripts/css/normalize.css" />
 <link rel="stylesheet" href="scripts/css/foundation.css" />
 <link rel="stylesheet" href="scripts/css/main.css" />
 <script src="scripts/js/vendor/modernizr.js"></script>
 </head>
 <?php include "header.php";?>
-<h1>Projects</h1>
+<h1 class="columns" style="text-align:center;">Projects</h1>
 <!--img gallery -->
-<div id="gallery" class="large-8 columns">
+<div id="gallery" class="small-12 medium-12 large-7 small-centered columns">
 <ul class="example-orbit" data-orbit>
   <li class="img2">
     <a href="http://richards.uni.me"><img src="img/richards.bmp" alt="slide 1" /></a>
@@ -38,5 +39,8 @@ description:contains my past work and current. -->
     </div>
   </li>
 </ul>
-</div
+</div>
 <?php include("footer.php") ?>
+<script>
+$("#lipro a").css( "color", "#0078a0" );
+</script>

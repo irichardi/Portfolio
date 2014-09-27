@@ -2,9 +2,11 @@
 file name:footer.php
 author:Richard
 site name:Richard
-description:Closing of the page. This file will be called in all the sections with the php include function. Special thanks to foundation for providing source code for some functionalities and Jquery.-->
+description:Closing of the page. This file will be called in all the sections with the php include function. Special thanks to foundation for providing source code for some functionalities and Jquery. My footer contains another navigation section, policy and terms for bonus marks, and copyright -->
+</div>
+<!--Site map -->
 <footer>
-<div class="icon-bar five-up">
+<div id="footnav" class="icon-bar five-up">
   <a class="item" href="home.php">
     <img src="img/fi-home.svg" >
   </a>
@@ -20,6 +22,9 @@ description:Closing of the page. This file will be called in all the sections wi
   <a class="item" href="contactus.php">
     <label>Contact Me</label>
   </a>
+  <a class="item" href="github.php">
+    <label>Github</label>
+  </a>
 </div>
 	<div id="leftfoot">	
 		<div id="widgets">
@@ -34,11 +39,11 @@ description:Closing of the page. This file will be called in all the sections wi
 	</div>
 	<div id="copyright">&copy; copyright of Richard Estrada. All rights reserved.</div>
 </footer>
+<!-- Javascript -->
 <script src="scripts/js/vendor/jquery.js"></script>
 <script src="scripts/js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>
 </body>
-
 </html>

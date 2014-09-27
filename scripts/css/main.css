@@ -3,13 +3,12 @@ file name:main.css
 author:Richard
 site name:Richard
 description:styling of the website */
-#welcome{
+/* Code below will control the style of top navigation and footer */
+#welcome,#mission p,#reasons{
 	text-align:center;
 }
 footer {
 	font-family: "Times New Roman", Georgia, Serif;
-}
-footer{
 	font-size: 12px;
 }
 #logo{
@@ -99,4 +98,29 @@ label{
 }
 #aboutme{
 	background-color:white;
+}
+#servmsg{
+	font-family: 'Lora', serif;
+	font-size:18px;
+}
+#page{
+	background-color:white;
+}
+#more a{
+	background-color:red;
+}
+#footnav label{
+	line-height:2;
+}
+#services ul li img{
+	height:400px;
+	width:400px;
+}
+#services h1{
+	text-align:center;
+}
+#contem{
+	font-family: 'Lora', serif;
+	font-size:16px;
+	color:white;
 }
